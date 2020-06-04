@@ -67,7 +67,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QToolButton" name="toolButton_2">
+        <widget class="QToolButton" name="btnAddLink">
          <property name="text">
           <string>新建关系</string>
          </property>
@@ -94,7 +94,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit">
+        <widget class="QLineEdit" name="edtSearch">
          <property name="minimumSize">
           <size>
            <width>120</width>
@@ -109,7 +109,7 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QListWidget" name="listWidget">
+       <widget class="QListView" name="lvData">
         <property name="maximumSize">
          <size>
           <width>240</width>
@@ -119,7 +119,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="widget" native="true"/>
+       <widget class="QWidget" name="wgtClient" native="true"/>
       </item>
      </layout>
     </item>
